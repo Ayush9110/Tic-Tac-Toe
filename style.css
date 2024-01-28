@@ -1,0 +1,73 @@
+/* By default there is some margin and padding */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width: 60vmin;
+    display: flex; /* //boxes come in same line */
+    flex-wrap: wrap;  /*come in next line if there is no space*/
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+} 
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border:2px solid;
+    border-radius: 1rem;
+    /* box-shadow: rgba(107, 176, 194, 0.776); */
+    font-size: 70px;
+    background-color: #67ad90;
+}
+#resetgame{
+    border:2px solid black;
+    background-color: rgb(44, 48, 42);
+    color:azure;
+    border-radius: 5px;
+    font-style: normal;
+    padding:4px;
+}
+#newgame{
+    border:2px solid black;
+    background-color: rgb(44, 48, 42);
+    color:azure;
+    border-radius: 5px;
+    font-style: normal;
+    padding:4px;
+}
+#msg{
+    color:rgb(37, 37, 32);
+    font-size: 30px;
+}
+.msgcontainer{
+    height:100vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4 rem;
+}
+.hide{
+    display: none;
+}
+
+.footer{
+    text-align: right;
+    font-size: large;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+
